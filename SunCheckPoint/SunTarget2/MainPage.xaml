@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="SunTarget2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SunTarget2"
+    xmlns:CommonLibrabry="using:CommonLibrary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+ 
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="Hi, I'm the second App you launch"></TextBlock>
+
+        <Button x:Name="BtnConnectAppService" Content="Connect App service" Click="BtnConnectAppService_Click"></Button>
+        <TextBlock x:Name="txtresult"></TextBlock>
+    </StackPanel>
+</Page>

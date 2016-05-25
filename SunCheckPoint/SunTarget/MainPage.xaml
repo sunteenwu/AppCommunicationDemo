@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="SunPublishShare.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SunPublishShare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" >
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\CommonLibrary\ReDictionary.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock Text="I'm the second App"  ></TextBlock>
+        <StackPanel  HorizontalAlignment="Center" >
+            <TextBlock Text="Publisher's shared storage folder" Style="{StaticResource Title}"  ></TextBlock>
+            <TextBox  x:Name="txtShareInsert"  Header="Insert Value"/>
+            <StackPanel   Orientation="Horizontal">
+                <TextBlock Text="Choose folder" Margin="5"></TextBlock>
+                <RadioButton x:Name="rbtMyfolder1">myFolder1</RadioButton>
+                <RadioButton x:Name="rbtMyfolder2">myFolder2</RadioButton>
+            </StackPanel>
+            <Button  x:Name="btnSave"  Click="btnSave_Click"   Content="Insert value into share folder" Style="{StaticResource buttonstyle}"/>
+            <TextBox  x:Name="txtShareRead"   Header="ReadValue"/>
+            <StackPanel   Orientation="Horizontal">
+                <TextBlock Text="Choose folder" Margin="5"></TextBlock>
+                <RadioButton x:Name="rbtMyfolder1r">myFolder1</RadioButton>
+                <RadioButton x:Name="rbtMyfolder2r">myFolder2</RadioButton>
+            </StackPanel>
+            <Button  x:Name="btnRead"   Click="btnRead_Click"   Content="Read value from share folder" Style="{StaticResource buttonstyle}"/>
+        </StackPanel>
+        <Image x:Name="imgAppdeliver" Width="200" Height="200"  VerticalAlignment="Bottom"></Image>
+    </Grid> 
+</Page>

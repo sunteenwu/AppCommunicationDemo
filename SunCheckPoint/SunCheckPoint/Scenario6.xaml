@@ -1,0 +1,34 @@
+﻿<Page x:Class="SunCheckPoint.Scenario6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:SunCheckPoint"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="..\CommonLibrary\ReDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" Orientation="Vertical">
+            <TextBlock Style="{StaticResource Title}" Text="Communicate with wpf" />
+            <TextBlock Style="{StaticResource Title}" Text="Please run the wpf client onetime to install the scheme firstly" />
+
+            <TextBox x:Name="UriToLaunch"
+                     Header="wpf Uri"
+                     Text="com.sunteen.wpftarget:?foo=bar&amp;Oh=Yeah" />
+            <Button x:Name="BtnLaunchwpf"
+                    Click="BtnLaunchwpf_Click"
+                    Content="Launch a wpf client"
+                    Style="{StaticResource buttonstyle}" />
+
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom">
+
+            <TextBlock x:Name="myTextblock" Text="inihit" />
+        </StackPanel>
+    </Grid>
+</Page>

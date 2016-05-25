@@ -1,0 +1,4 @@
+D:\ChekPoint\SunCheckPoint\CashierSecondTask\CashierSecondTask.csproj;x86
+D:\ChekPoint\SunCheckPoint\CashierService\CashierService.csproj;x86
+D:\ChekPoint\SunCheckPoint\CashierTask\CashierTask.csproj;x86
+D:\ChekPoint\SunCheckPoint\CommonLibrary\CommonLibrary.csproj;x86

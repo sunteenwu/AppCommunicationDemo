@@ -1,0 +1,28 @@
+﻿<Window x:Class="wpfclient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfclient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical" >
+            <TextBlock Text="Regist custom scheme" FontSize="30" ></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Input URI: " />
+                <TextBox x:Name="InputUrI" Text="[Input URI]" IsReadOnly="True" />
+            </StackPanel>
+            <TextBlock Text="Install new custom protocol scheme:" Margin="0, 5, 0, 0" />
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Scheme Name: " />
+                <TextBox x:Name="SchemeName" Text="com.sunteen.wpftarget" />
+                <Button x:Name="InstallProtocol" Content="Install" Click="InstallProtocol_Click" />
+                <Button x:Name="UninstallProtocol" Content="Uninstall" Click="UninstallProtocol_Click" />
+            </StackPanel>      
+            <TextBlock Text="Connect App service" FontSize="30"  Margin="0,15,0,0"></TextBlock>
+            <Button x:Name="button" Content="Connect to app service" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top" Width="175" Click="button_Click"/>
+        <TextBlock x:Name="txtresult" Margin="47,20,216,81" Text="Inihit"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,2 @@
+D:\ChekPoint\SunCheckPoint\CommonLibrary\CommonLibrary.csproj;x86
+D:\ChekPoint\SunCheckPoint\SunAppserviceClient\SunAppserviceClient.csproj;x86

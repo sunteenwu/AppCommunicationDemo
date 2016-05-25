@@ -1,0 +1,16 @@
+D:\ChekPoint\SunCheckPoint\wpfclient\bin\Debug\wpfclient.exe.config
+D:\ChekPoint\SunCheckPoint\wpfclient\bin\Debug\wpfclient.exe
+D:\ChekPoint\SunCheckPoint\wpfclient\bin\Debug\wpfclient.pdb
+D:\ChekPoint\SunCheckPoint\wpfclient\bin\Debug\System.Runtime.WindowsRuntime.dll
+D:\ChekPoint\SunCheckPoint\wpfclient\bin\Debug\Windows.winmd
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.csprojResolveAssemblyReference.cache
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\MainWindow.g.cs
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\App.g.cs
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient_MarkupCompile.cache
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient_MarkupCompile.lref
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\MainWindow.baml
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.g.resources
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.Properties.Resources.resources
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.csproj.GenerateResource.Cache
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.exe
+D:\ChekPoint\SunCheckPoint\wpfclient\obj\Debug\wpfclient.pdb
